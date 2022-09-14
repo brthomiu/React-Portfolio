@@ -1,7 +1,6 @@
 nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
-    display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
@@ -30,4 +29,56 @@ nav a:hover {
 nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
+}
+
+.topNav {
+    background: var(--color-bg-dark);
+    width: 100%;
+    height: 2rem;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    border-radius: 0rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.8rem;
+    backdrop-filter: blur(10px);
+}
+
+.topNavText {
+    padding: 0rem 0rem 0rem .5rem;
+    font-size: .9rem;
+}
+
+.topNavLink {
+    background: transparent;
+    padding: .5rem;
+    border-radius: .2rem;
+    display: flex;
+    color: var(--color-light);
+    font-size: .7rem;
+    align-items: baseline;
+}
+
+.topNavLink:hover {
+    background: transparent;
+}
+
+/* -------------- Responsive Media Queries ( Medium and Large Size) ----------------*/
+
+@media screen and (min-width: 600px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topNav {
+        display: none;
+    }
 }

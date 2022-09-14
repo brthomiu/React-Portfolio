@@ -12,8 +12,9 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    --color-bg: #1c2338;
+    --color-bg-dark: #111625;
+    --color-bg-variant: #2c3b6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -39,7 +40,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/random-grey-variations.png)
+    background-image: url(../src/assets/random-grey-variations.png);
 }
 
 /* -------------------- General Styles -------------------- */
@@ -92,6 +93,7 @@ a:hover {
     padding: 0.75rem 1.2rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
+    border-radius: 1rem;
     transition: var(--transition1);
 }
 

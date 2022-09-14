@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
 import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
 import {FaUserAlt, FaBook, FaHandsHelping} from 'react-icons/fa'
 import {RiMailFill} from 'react-icons/ri'
-import {useState} from 'react'
+import { React, useState} from 'react'
 
 
 const Nav = () => {
@@ -12,7 +11,8 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
 
   return (
-    <nav>
+    
+    <nav className='floatingNav'>
 
       <a href="#"
       onClick={() => setActiveNav('#')}

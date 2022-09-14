@@ -4,7 +4,8 @@ import './testimonials.css'
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      Testimonials
+      <br/><br/>
+      <h2>Testimonials</h2>
     </section>
   )
 }
