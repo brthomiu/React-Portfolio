@@ -32,9 +32,9 @@ const Nav = () => {
         <FaBook />
       </a>
 
-      <a href="#services" 
-      onClick={() => setActiveNav('#services')} 
-      className={activeNav === '#services' ? 'active' : ''}>
+      <a href="#portfolio" 
+      onClick={() => setActiveNav('#portfolio')} 
+      className={activeNav === '#portfolio' ? 'active' : ''}>
         <FaHandsHelping />
       </a>
       

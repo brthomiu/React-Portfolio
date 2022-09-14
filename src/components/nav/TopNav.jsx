@@ -27,9 +27,9 @@ const TopNav = () => {
           <h5 className='topNavText'>Experience</h5>
         </a>
   
-        <a href="#services" className='topNavLink'>
+        <a href="#portfolio" className='topNavLink'>
           <FaHandsHelping />
-          <h5 className='topNavText'>Services</h5>
+          <h5 className='topNavText'>Portfolio</h5>
         </a>
         
         <a href="#contact" className='topNavLink'>

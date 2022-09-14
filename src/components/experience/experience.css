@@ -1,0 +1,91 @@
+#experience {
+    margin-top: 20%;
+    padding-top: 2rem;
+
+}
+
+
+
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 47rem;
+}
+
+.experience__container > div {
+    background-color: var(--color-bg-variant);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    max-width: 22rem;
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    gap: 3rem;
+}
+
+.experience__details {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color: var(--color-green);
+    font-size: 1.4rem;
+    transform: translate(0, -4px)
+}
+
+/* -------------- Responsive Media Queries (Large Size) ----------------*/
+
+@media screen and (min-width: 1150px) {
+    .experience__container {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 50%;
+    }
+
+    .experience__container > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 22rem;
+    }
+}
+
+/* -------------- Responsive Media Queries ( Medium Size) ----------------*/
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* -------------- Responsive Media Queries ( Small Size) ----------------*/
+
+@media screen and (max-width: 800px) {
+    .experience__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

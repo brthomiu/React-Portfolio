@@ -19,8 +19,9 @@
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
+    --color-green: rgb(69, 212, 117);
 
-    --transition1: all 400ms ease;
+    --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -79,7 +80,7 @@ section > h2 {
 
 a {
     color: var(--color-primary);
-    transition: var(--transition1);
+    transition: var(--transition);
 }
 
 a:hover {
@@ -94,7 +95,7 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     border-radius: 1rem;
-    transition: var(--transition1);
+    transition: var(--transition);
 }
 
 .btn:hover {
@@ -113,6 +114,15 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+/* -------------- Responsive Media Queries (Large Size) ----------------*/
+
+@media screen and (min-width: 1600px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
 
 /* -------------- Responsive Media Queries ( Medium Size) ----------------*/
 

@@ -1,0 +1,33 @@
+#contact {
+    margin-top: 65%;
+    position: relative;
+    padding-top: 2rem;
+}
+
+/* -------------- Responsive Media Queries ( Ultra HD Size ) ----------------*/
+
+@media screen and (min-width: 2400px) {
+    #contact {
+        margin-top: 10%;
+    }
+}
+
+/* -------------- Responsive Media Queries ( Ultra HD Size ) ----------------*/
+
+@media screen and (max-width: 1600px) {
+    #contact {
+        margin-top: 135%;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    #contact {
+        margin-top: 210%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #contact {
+        margin-top: 210%;
+    }
+}
