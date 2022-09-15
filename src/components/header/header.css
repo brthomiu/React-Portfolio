@@ -13,6 +13,14 @@ header {
     align-content: center;
 }
 
+.header__container h1 {
+    font-size: 3.5rem;
+}
+
+.header__container h5 {
+    font-size: 1rem;
+}
+
 /* ----------- CTA -------------------*/
 
 .cta {
@@ -45,7 +53,7 @@ header {
 
 .me {
     width: 50%;
-    max-width: 36rem;
+    max-width: 34rem;
     position: relative;
     border-radius: 0rem 0rem 0 0;
     padding: 5rem 1.5rem 24rem 1.5rem;
@@ -86,4 +94,13 @@ header {
     .me {
         width: 75%;
     }
+
+    .header__container h1 {
+        font-size: 2.8rem;
+    }
+
+    .header__container h5 {
+        font-size: .8rem;
+    }
+    
 }

@@ -16,7 +16,7 @@ const App = () => {
 
   return (
 
-    <body>
+    <>
 
       <Header />
     
@@ -34,7 +34,7 @@ const App = () => {
 
       <Footer />
 
-    </body>
+    </>
 
   )
 }

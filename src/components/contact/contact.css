@@ -16,7 +16,22 @@
 
 @media screen and (max-width: 1600px) {
     #contact {
-        margin-top: 135%;
+        margin-top: 40%;
+    }
+
+    @media screen and (min-height: 800px) {
+        #contact {
+            margin-top: 102%;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+
+    @media screen and (min-width: 1600px) {
+        #contact {
+            margin-top: 15%;
+        }
     }
 }
 
