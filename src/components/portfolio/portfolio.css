@@ -30,6 +30,7 @@
 .portfolio__item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     justify-content: left;
 }
@@ -80,10 +81,17 @@
     #portfolio {
         margin-top: 35%;
     }
+    
 }
 
 @media screen and (max-height: 600px) {
     #portfolio {
-        margin-top: 45%;
+        margin-top: 85%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #portfolio {
+        margin-top: 70%;
     }
 }

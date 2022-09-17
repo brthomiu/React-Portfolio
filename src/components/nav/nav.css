@@ -40,14 +40,11 @@ nav a.active {
     border-radius: 0rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
     top: 0rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 0.8rem;
-    backdrop-filter: blur(10px);
 }
 
 .topNavText {
@@ -78,6 +75,23 @@ nav a.active {
 }
 
 @media screen and (max-width: 600px) {
+    .topNav {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    nav {
+        display: none;
+    }
+    @media screen and (min-width: 600px) {
+        nav {
+            display: flex;
+        }
+    }
+}
+
+@media screen and (max-height: 600px) {
     .topNav {
         display: none;
     }

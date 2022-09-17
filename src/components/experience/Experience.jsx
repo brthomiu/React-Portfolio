@@ -1,6 +1,8 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import CV from '../../assets/BradThompson2022Resume.pdf'
+
 
 const Experience = () => {
 
@@ -58,7 +60,7 @@ const Experience = () => {
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>MongoDB</h4>
+              <h4>Python</h4>
             </article>
 
             <article className="experience__details">
@@ -70,31 +72,13 @@ const Experience = () => {
 
         </div>
 
-        <div className="experience__backend">
-          
-          <h3>Backend Development</h3>
-          
-          <div className="experience__content">
+        <div className="experience__cv">
+        
+          <h3>Other Experience</h3>
 
-          <article className="experience__details">
-            <BsPatchCheckFill className="experience__details-icon" />
-              <h4>NodeJS</h4>
-            </article>
+          <div className="experience__content-cv">
 
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <h4>SQL</h4>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <h4>MongoDB</h4>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Docker</h4>
-            </article>
+           <a href={CV} download className='btn_experience'>Download CV</a>
 
           </div>
 

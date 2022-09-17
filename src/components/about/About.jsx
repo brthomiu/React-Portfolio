@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from "../../assets/squareIcePortrait.png"
+import ME from "../../assets/iconPortrait.png"
 import {BsAwardFill} from 'react-icons/bs'
 
 
@@ -26,25 +26,29 @@ const About = () => {
             <article className="about__card">
               <BsAwardFill className='about__icon'/>
               <h5>Experience</h5>
-              <small>Not a lot</small>
+              <small>• Frontend<br/>• Backend<br/>• Operations<br/>• Design</small>
             </article>
 
             <article className="about__card">
               <BsAwardFill className='about__icon'/>
-              <h5>Favorite Smells</h5>
-              <small>Gasoline and glue</small>
+              <h5>Languages</h5>
+              <small>• HTML<br/>• CSS<br/>• JavaScript<br/>• Python</small>
             </article>
 
             <article className="about__card">
               <BsAwardFill className='about__icon'/>
-              <h5>Favorite Number</h5>
-              <small>Don't have one</small>
+              <h5>Hobbies</h5>
+              <small>• Music<br/>• Cooking<br/>• Gardening<br/>• Gaming</small>
             </article>
 
           </div>
 
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim magni consequatur corporis nostrum quasi, doloremque laboriosam velit dolores consequuntur exercitationem veniam libero! Quas labore, officiis veritatis eaque illum obcaecati aliquam.
+          Whether writing code, designing webapps, or creating multimedia content, my passion is using technology to turn ideas into reality. <br/><br/>
+          
+          I also enjoy creating digital art and music. I love using new tools and software, and I am fascinated by AI and generative art.<br/><br/>
+          
+          When I'm not at the computer you can find me in the kitchen cooking and baking, in the garden pulling weeds, or in the garage tinkering with tools and electronics. 
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

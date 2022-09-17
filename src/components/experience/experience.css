@@ -13,6 +13,16 @@
     max-width: 47rem;
 }
 
+.experience__content-cv {
+    min-width: 14rem
+}
+
+.experience__content-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .experience__container > div {
     background-color: var(--color-bg-variant);
     padding: 2rem 3rem;
@@ -52,6 +62,18 @@
     color: var(--color-green);
     font-size: 1.4rem;
     transform: translate(0, -4px)
+}
+
+.btn_experience {
+    width: max-content;
+    display: inline-block;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 1rem;
+    transition: var(--transition);
 }
 
 /* -------------- Responsive Media Queries (Large Size) ----------------*/

@@ -53,7 +53,7 @@ header {
 
 .me {
     width: 50%;
-    max-width: 34rem;
+    max-width: 24rem;
     position: relative;
     border-radius: 0rem 0rem 0 0;
     padding: 5rem 1.5rem 24rem 1.5rem;
@@ -69,6 +69,14 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+/* -------------- Responsive Media Queries ( Large Size ) ----------------*/
+
+@media screen and (min-width: 1600px) {
+    .me {
+        max-width: 34rem;
+    }
 }
 
 /* -------------- Responsive Media Queries ( Medium Size) ----------------*/
@@ -96,7 +104,7 @@ header {
     }
 
     .header__container h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .header__container h5 {
@@ -104,3 +112,4 @@ header {
     }
     
 }
+
