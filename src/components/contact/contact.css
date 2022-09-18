@@ -5,6 +5,12 @@
     margin-bottom: 15%;
 }
 
+.container.contact__container {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
 .contact__options {
     display: flex;
     flex-direction: column;

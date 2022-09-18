@@ -83,10 +83,7 @@ header {
 /* -------------- Responsive Media Queries ( Medium Size) ----------------*/
 
 
-
 /* -------------- Responsive Media Queries ( Small Size) ----------------*/
-
-@media screen and (max-width: 600px) {
 
 
     .header__socials,
@@ -106,5 +103,4 @@ header {
         font-size: .8rem;
     }
     
-}
 
