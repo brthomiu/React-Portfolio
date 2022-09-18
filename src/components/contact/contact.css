@@ -2,18 +2,7 @@
     margin-top: 65%;
     position: relative;
     padding-top: 2rem;
-<<<<<<< HEAD
     margin-bottom: 15%;
-=======
-    margin-bottom: 10%;
->>>>>>> a8fd1958d2b96271ea6cb1de23d37a08ec4de400
-}
-
-.container.contact__container {
-    width: 80%;
-    display: flex;
-    gap: 10%;
-    justify-content: center;
 }
 
 .contact__options {
@@ -108,7 +97,7 @@ textarea {
 
 @media screen and (max-width: 719px) {
     #contact {
-        margin-top: 210%;
+        margin-top: 100%;
     }
 
     .container.contact__container {
@@ -125,7 +114,7 @@ textarea {
 
 @media screen and (max-height: 600px) {
     #contact {
-        margin-top: 210%;
+        margin-top: 100%;
         margin-bottom: 90%;
     }
 }
