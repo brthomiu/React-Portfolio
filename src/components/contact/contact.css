@@ -2,6 +2,7 @@
     margin-top: 65%;
     position: relative;
     padding-top: 2rem;
+    margin-bottom: 15%;
 }
 
 .container.contact__container {
@@ -82,7 +83,7 @@ textarea {
 
 @media screen and (max-width: 1600px) {
     #contact {
-        margin-top: 70%;
+        margin-top: 80%;
     }
 
     @media screen and (min-height: 760px) {
