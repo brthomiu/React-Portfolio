@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.dcda5b27.css",
+    "main.css": "/React-Portfolio/static/css/main.5e9d2960.css",
     "main.js": "/React-Portfolio/static/js/main.aa61ac3b.js",
     "static/media/iconPortrait.png": "/React-Portfolio/static/media/iconPortrait.a3399d42528d72ce5f34.png",
     "static/media/BradThompson2022Resume.pdf": "/React-Portfolio/static/media/BradThompson2022Resume.4a61b02297265a3e0f64.pdf",
@@ -10,11 +10,11 @@
     "static/media/nextTech2.png": "/React-Portfolio/static/media/nextTech2.7759ce23bca81e1f5474.png",
     "static/media/taskList2.png": "/React-Portfolio/static/media/taskList2.636628f901a6cddae0d9.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.dcda5b27.css.map": "/React-Portfolio/static/css/main.dcda5b27.css.map",
+    "main.5e9d2960.css.map": "/React-Portfolio/static/css/main.5e9d2960.css.map",
     "main.aa61ac3b.js.map": "/React-Portfolio/static/js/main.aa61ac3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcda5b27.css",
+    "static/css/main.5e9d2960.css",
     "static/js/main.aa61ac3b.js"
   ]
 }
