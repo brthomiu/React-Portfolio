@@ -8,8 +8,6 @@ const About = () => {
   return (
     <section id="about">
 
-      <h2>About Me</h2>
-
       <div className="container about__container">
       <div className="about__me">
 
@@ -46,12 +44,11 @@ const About = () => {
           <p>
           Whether writing code, designing webapps, or creating multimedia content, my passion is using technology to turn ideas into reality. <br/><br/>
           
-          I also enjoy creating digital art and music. I love using new tools and software, and I am fascinated by AI and generative art.<br/><br/>
+          In addition to coding, I also enjoy creating digital art and music. I love using new tools and software, and I am fascinated by AI and generative art.<br/><br/>
           
           When I'm not at the computer you can find me in the kitchen cooking and baking, in the garden pulling weeds, or in the garage tinkering with tools and electronics. 
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
 
         </div>
     </div>

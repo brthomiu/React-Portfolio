@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './nav.css'
-import {AiFillHome} from 'react-icons/ai'
 import {FaUserAlt, FaBook, FaListAlt} from 'react-icons/fa'
 import {RiMailFill} from 'react-icons/ri'
 import { React, useState} from 'react'
@@ -14,15 +13,10 @@ const Nav = () => {
     
     <nav className='floatingNav'>
 
-      <a href="#"
-      onClick={() => setActiveNav('#')}
-      className={ activeNav === '#' ? 'active' : '' }>
-        <AiFillHome />
-      </a>
 
-      <a href="#about" 
-      onClick={() => setActiveNav('#about')} 
-      className={activeNav === '#about' ? 'active' : ''}>
+      <a href="#" 
+      onClick={() => setActiveNav('#')} 
+      className={activeNav === '#' ? 'active' : ''}>
         <FaUserAlt />
       </a>
 
