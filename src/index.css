@@ -142,7 +142,4 @@ img {
         width: var(--container-width-sm);
     }
 
-    section {
-        margin-top: 2rem;
-    }
 }
