@@ -78,7 +78,10 @@ const Experience = () => {
 
           <div className="experience__content-cv">
 
+           <a href={"https://www.codecademy.com/profiles/brthomiu"} download className='btn_experience' target='_blank' rel="noreferrer">Codecademy</a>
+
            <a href={CV} download className='btn_experience'>Download CV</a>
+
 
           </div>
 

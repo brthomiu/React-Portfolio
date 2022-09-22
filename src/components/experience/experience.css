@@ -13,13 +13,11 @@
 }
 
 .experience__content-cv {
-    min-width: 14rem
-}
-
-.experience__content-cv {
+    min-width: 14rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .experience__container > div {
@@ -48,6 +46,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     gap: 3rem;
+    
 }
 
 .experience__details {
@@ -73,6 +72,7 @@
     border: 2px solid var(--color-bg-variant);
     border-radius: 1rem;
     transition: var(--transition);
+    margin-bottom: 2%;
 }
 
 /* -------------- Responsive Media Queries (Large Size) ----------------*/
