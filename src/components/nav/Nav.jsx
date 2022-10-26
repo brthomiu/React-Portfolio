@@ -1,45 +1,49 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './nav.css'
-import {FaUserAlt, FaBook, FaListAlt} from 'react-icons/fa'
-import {RiMailFill} from 'react-icons/ri'
-import { React, useState} from 'react'
+import "./nav.css";
+import { FaUserAlt, FaBook, FaListAlt } from "react-icons/fa";
+import { RiMailFill } from "react-icons/ri";
+import { React, useState } from "react";
 
+//Floating navigation bar to replace top bar on mobile devices.
 
 const Nav = () => {
-
-  const [activeNav, setActiveNav] = useState('#');
+  const [activeNav, setActiveNav] = useState("#");
 
   return (
-    
-    <nav className='floatingNav'>
-
-
-      <a href="#" 
-      onClick={() => setActiveNav('#')} 
-      className={activeNav === '#' ? 'active' : ''}>
+    <nav className="floatingNav">
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <FaUserAlt />
       </a>
 
-      <a href="#experience" 
-      onClick={() => setActiveNav('#experience')} 
-      className={activeNav === '#experience' ? 'active' : ''}>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <FaBook />
+      </a>
+
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
         <FaListAlt />
       </a>
 
-      <a href="#portfolio" 
-      onClick={() => setActiveNav('#portfolio')} 
-      className={activeNav === '#portfolio' ? 'active' : ''}>
-        <FaBook />
-      </a>
-      
-      <a href="#contact" 
-      onClick={() => setActiveNav('#contact')} 
-      className={activeNav === '#contact' ? 'active' : ''}>
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
         <RiMailFill />
       </a>
-
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

@@ -1,75 +1,71 @@
 header {
-    padding-top: 5rem;
-    height: 100%;
-    margin-bottom: -7.5%;
+  padding-top: 5rem;
+  height: 100%;
+  margin-bottom: -7.5%;
 }
 
 .header__container {
-    text-align: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
 .header__container h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 .header__container h5 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
-
 
 /* ----------- CTA -------------------*/
 
 .cta {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
 .cta button {
-    min-height: 1rem;
+  min-height: 1rem;
 }
-
 
 /* ----------- Scroll Down -------------------*/
 
 .scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /* -------------- Responsive Media Queries ( Large Size ) ----------------*/
 
 @media screen and (min-width: 1600px) {
-    .me {
-        max-width: 34rem;
-    }
+  .me {
+    max-width: 34rem;
+  }
 }
 
-    .header__socials,
-    .scroll__down {
-        display: none;
-    }
+.header__socials,
+.scroll__down {
+  display: none;
+}
 
-    .me {
-        width: 75%;
-    }
+.me {
+  width: 75%;
+}
 
-    .header__container h1 {
-        font-size: 2.5rem;
-    }
+.header__container h1 {
+  font-size: 2.5rem;
+}
 
-    .header__container h5 {
-        font-size: .8rem;
-    }
-    
-
+.header__container h5 {
+  font-size: 0.8rem;
+}
