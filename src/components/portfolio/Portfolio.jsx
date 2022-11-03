@@ -6,6 +6,9 @@ import taskList3 from "../../assets/taskList3.png";
 import nextTech from "../../assets/nextTech.png";
 import nextTech2 from "../../assets/nextTech2.png";
 import ston from "../../assets/stonInfo.png";
+import stonGif from "../../assets/stonGif.gif";
+import dogStoreGif from "../../assets/dogStoreGif.gif"
+import dogStoreInfo from "../../assets/dogStoreInfo.png"
 
 
 // import Swiper core and required modules
@@ -88,7 +91,7 @@ const Portfolio = () => {
           </article>
         </div>
 
-{/*Stön: Pizza Notes --------------------------------------------
+{/*Stön: Pizza Notes --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
@@ -102,7 +105,7 @@ const Portfolio = () => {
           >
             <SwiperSlide>
               <img
-                src={ston}
+                src={stonGif}
                 className="portfolio__item-image"
                 alt="Responsive Webpage"
               />
@@ -118,7 +121,7 @@ const Portfolio = () => {
 
           <article className="portfolio__item">
             <h2>Stön: Pizza Notes</h2>
-            <h4>Responsive webpage made with HTML, CSS, and JavaScript.</h4>
+            <h4>A pllatform built to help home cooks and chefs develop better pizzas. Written in JavaScript using React Native, Express API, NodeJS, and PostgreSQL.</h4>
             <div className="portfolio__buttons">
               <a
                 href="https://github.com/brthomiu/Responsive-Webpage"
@@ -128,19 +131,12 @@ const Portfolio = () => {
               >
                 Github
               </a>
-              <a
-                href="https://brthomiu.github.io/Responsive-Webpage/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
+
             </div>
           </article>
         </div>
 
-{/*New Project Here --------------------------------------------
+{/*New Project Here --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
@@ -153,14 +149,14 @@ const Portfolio = () => {
           >
             <SwiperSlide>
               <img
-                src={nextTech}
+                src={dogStoreGif}
                 className="portfolio__item-image"
                 alt="Responsive Webpage"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={nextTech2}
+                src={dogStoreInfo}
                 className="portfolio__item-image"
                 alt="Responsive Webpage"
               />
@@ -168,8 +164,8 @@ const Portfolio = () => {
           </Swiper>
 
           <article className="portfolio__item">
-            <h2>New Project</h2>
-            <h4>Under Construction</h4>
+            <h2>Dog Store</h2>
+            <h4>Online storefront made with React Bootstrap, NodeJS, Express, and Stripe. </h4>
             <div className="portfolio__buttons">
               <a
                 href="https://github.com/brthomiu/Responsive-Webpage"
@@ -179,14 +175,7 @@ const Portfolio = () => {
               >
                 Github
               </a>
-              <a
-                href="https://brthomiu.github.io/Responsive-Webpage/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
+
             </div>
           </article>
         </div>
