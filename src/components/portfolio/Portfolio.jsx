@@ -7,9 +7,9 @@ import nextTech from "../../assets/nextTech.png";
 import nextTech2 from "../../assets/nextTech2.png";
 import ston from "../../assets/stonInfo.png";
 import stonGif from "../../assets/stonGif.gif";
-import dogStoreGif from "../../assets/dogStoreGif.gif"
-import dogStoreInfo from "../../assets/dogStoreInfo.png"
-
+import dogStoreGif from "../../assets/dogStoreGif.gif";
+import dogStoreInfo from "../../assets/dogStoreInfo.png";
+import calculonGif from "../../assets/calculonGif.gif";
 
 // import Swiper core and required modules
 
@@ -23,13 +23,11 @@ import "swiper/css/pagination";
 
 const Portfolio = () => {
   return (
-    
     <section id="portfolio">
       <h2>Projects</h2>
 
       <div className="portfolio">
-
-{/*Full Stack Task List --------------------------------------------*/}
+        {/*Full Stack Task List --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
@@ -39,7 +37,6 @@ const Portfolio = () => {
             pagination={{ clickable: true }}
             instanceName="portfolioSwiper"
             className="portfolio__swiper"
-
           >
             <SwiperSlide>
               <img
@@ -91,7 +88,7 @@ const Portfolio = () => {
           </article>
         </div>
 
-{/*Stön: Pizza Notes --------------------------------------------*/}
+        {/*Stön: Pizza Notes --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
@@ -101,7 +98,6 @@ const Portfolio = () => {
             pagination={{ clickable: true }}
             instanceName="portfolioSwiper"
             className="portfolio__swiper"
-
           >
             <SwiperSlide>
               <img
@@ -121,7 +117,11 @@ const Portfolio = () => {
 
           <article className="portfolio__item">
             <h2>Stön: Pizza Notes</h2>
-            <h4>A pllatform built to help home cooks and chefs develop better pizzas. Written in JavaScript using React Native, Express API, NodeJS, and PostgreSQL.</h4>
+            <h4>
+              A pllatform built to help home cooks and chefs develop better
+              pizzas. Written in JavaScript using React Native, Express API,
+              NodeJS, and PostgreSQL.
+            </h4>
             <div className="portfolio__buttons">
               <a
                 href="https://github.com/brthomiu/Responsive-Webpage"
@@ -131,16 +131,15 @@ const Portfolio = () => {
               >
                 Github
               </a>
-
             </div>
           </article>
         </div>
 
-{/*New Project Here --------------------------------------------*/}
+        {/*New Project Here --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
-            modules={[Navigation, Pagination, A11y,]}
+            modules={[Navigation, Pagination, A11y]}
             slidesPerView={1}
             nagivation
             pagination={{ clickable: true }}
@@ -165,7 +164,10 @@ const Portfolio = () => {
 
           <article className="portfolio__item">
             <h2>Dog Store</h2>
-            <h4>Online storefront made with React Bootstrap, NodeJS, Express, and Stripe. </h4>
+            <h4>
+              Online storefront made with React Bootstrap, NodeJS, Express, and
+              Stripe.{" "}
+            </h4>
             <div className="portfolio__buttons">
               <a
                 href="https://github.com/brthomiu/Responsive-Webpage"
@@ -175,14 +177,11 @@ const Portfolio = () => {
               >
                 Github
               </a>
-
             </div>
           </article>
         </div>
 
-
-{/*Reactive Web Page --------------------------------------------*/}
-
+        {/*Calculon --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
@@ -192,7 +191,50 @@ const Portfolio = () => {
             pagination={{ clickable: true }}
             instanceName="portfolioSwiper"
             className="portfolio__swiper"
+          >
+            <SwiperSlide>
+              <img
+                src={calculonGif}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+          </Swiper>
 
+          <article className="portfolio__item">
+            <h2>Calculon</h2>
+            <h4>Earth's Greatest Calculating Unit - Made with React and JavaScript</h4>
+            <div className="portfolio__buttons">
+              <a
+                href="https://github.com/brthomiu/calculon"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://brthomiu.github.io/calculon/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+
+        {/*Reactive Web Page --------------------------------------------*/}
+
+        <div className="container portfolio__container">
+          <Swiper
+            modules={[Navigation, Pagination, A11y]}
+            slidesPerView={1}
+            nagivation
+            pagination={{ clickable: true }}
+            instanceName="portfolioSwiper"
+            className="portfolio__swiper"
           >
             <SwiperSlide>
               <img
