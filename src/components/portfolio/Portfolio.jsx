@@ -10,6 +10,7 @@ import stonGif from "../../assets/stonGif.gif";
 import dogStoreGif from "../../assets/dogStoreGif.gif";
 import dogStoreInfo from "../../assets/dogStoreInfo.png";
 import calculonGif from "../../assets/calculonGif.gif";
+import movieGif from "../../assets/moviesGif.gif";
 
 // import Swiper core and required modules
 
@@ -135,7 +136,45 @@ const Portfolio = () => {
           </article>
         </div>
 
-        {/*New Project Here --------------------------------------------*/}
+        {/*Movie Lookup --------------------------------------------*/}
+
+        <div className="container portfolio__container">
+          <Swiper
+            modules={[Navigation, Pagination, A11y]}
+            slidesPerView={1}
+            nagivation
+            pagination={{ clickable: true }}
+            instanceName="portfolioSwiper"
+            className="portfolio__swiper"
+          >
+            <SwiperSlide>
+              <img
+                src={movieGif}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+          </Swiper>
+
+          <article className="portfolio__item">
+            <h2>Movie Lookup</h2>
+            <h4>
+              Movie lookup app made with React. Fetches movies from a remote API and renders component cards. Includes search and tag features.{" "}
+            </h4>
+            <div className="portfolio__buttons">
+            <a
+                href="https://brthomiu.github.io/movie-app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+
+        {/*Dog Store --------------------------------------------*/}
 
         <div className="container portfolio__container">
           <Swiper
