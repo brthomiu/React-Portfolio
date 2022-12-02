@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.8fad4a89.css",
-    "main.js": "/React-Portfolio/static/js/main.91453dd3.js",
+    "main.js": "/React-Portfolio/static/js/main.ecf85782.js",
     "static/media/stonGif.gif": "/React-Portfolio/static/media/stonGif.39d4f014087fca004ff7.gif",
     "static/media/taskList2.gif": "/React-Portfolio/static/media/taskList2.36de394b6b8c15eaf89b.gif",
     "static/media/dogStoreGif.gif": "/React-Portfolio/static/media/dogStoreGif.dd6ab3a428ba406b66d0.gif",
@@ -9,7 +9,7 @@
     "static/media/calculonGif.gif": "/React-Portfolio/static/media/calculonGif.9bc734b4e83a2abe3343.gif",
     "static/media/stonInfo.png": "/React-Portfolio/static/media/stonInfo.d5f65af5e932130df451.png",
     "static/media/iconPortrait.png": "/React-Portfolio/static/media/iconPortrait.a3399d42528d72ce5f34.png",
-    "static/media/BradThompson2022Resume.pdf": "/React-Portfolio/static/media/BradThompson2022Resume.28c5e935b62bea3a424d.pdf",
+    "static/media/BradThompson2022Resume.pdf": "/React-Portfolio/static/media/BradThompson2022Resume.bd7277d1790e0c6b91f8.pdf",
     "static/media/dogStoreInfo.png": "/React-Portfolio/static/media/dogStoreInfo.1049d0cc5ff87296d93c.png",
     "static/media/taskList1.png": "/React-Portfolio/static/media/taskList1.3e8fc845c3cc123bef3f.png",
     "static/media/taskList3.png": "/React-Portfolio/static/media/taskList3.eddd326d68051cceb84d.png",
@@ -17,10 +17,10 @@
     "static/media/nextTech2.png": "/React-Portfolio/static/media/nextTech2.7759ce23bca81e1f5474.png",
     "index.html": "/React-Portfolio/index.html",
     "main.8fad4a89.css.map": "/React-Portfolio/static/css/main.8fad4a89.css.map",
-    "main.91453dd3.js.map": "/React-Portfolio/static/js/main.91453dd3.js.map"
+    "main.ecf85782.js.map": "/React-Portfolio/static/js/main.ecf85782.js.map"
   },
   "entrypoints": [
     "static/css/main.8fad4a89.css",
-    "static/js/main.91453dd3.js"
+    "static/js/main.ecf85782.js"
   ]
 }

@@ -28,6 +28,101 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className="portfolio">
+
+ {/*Movie Lookup --------------------------------------------*/}
+
+ <div className="container portfolio__container">
+          <Swiper
+            modules={[Navigation, Pagination, A11y]}
+            slidesPerView={1}
+            nagivation
+            pagination={{ clickable: true }}
+            instanceName="portfolioSwiper"
+            className="portfolio__swiper"
+          >
+            <SwiperSlide>
+              <img
+                src={movieGif}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+          </Swiper>
+
+          <article className="portfolio__item">
+            <h2>Movie Lookup</h2>
+            <h4>
+              Movie lookup app made with React. Fetches movies from a remote API and renders component cards. Includes search and tag features.{" "}
+            </h4>
+            <div className="portfolio__buttons">
+            <a
+                href="https://github.com/brthomiu/Movie-Lookup"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            <a
+                href="https://brthomiu.github.io/movie-app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+
+{/*Stön: Pizza Notes --------------------------------------------*/}
+
+<div className="container portfolio__container">
+          <Swiper
+            modules={[Navigation, Pagination, A11y]}
+            slidesPerView={1}
+            nagivation
+            pagination={{ clickable: true }}
+            instanceName="portfolioSwiper"
+            className="portfolio__swiper"
+          >
+            <SwiperSlide>
+              <img
+                src={stonGif}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={ston}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+          </Swiper>
+
+          <article className="portfolio__item">
+            <h2>Stön: Pizza Notes</h2>
+            <h4>
+              A pllatform built to help home cooks and chefs develop better
+              pizzas. Written in JavaScript using React Native, Express API,
+              NodeJS, and PostgreSQL.
+            </h4>
+            <div className="portfolio__buttons">
+              <a
+                href="https://github.com/brthomiu/Ston-Pizza-Notes"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </article>
+        </div>
+
+
         {/*Full Stack Task List --------------------------------------------*/}
 
         <div className="container portfolio__container">
@@ -89,140 +184,9 @@ const Portfolio = () => {
           </article>
         </div>
 
-        {/*Stön: Pizza Notes --------------------------------------------*/}
+                {/*Calculon --------------------------------------------*/}
 
-        <div className="container portfolio__container">
-          <Swiper
-            modules={[Navigation, Pagination, A11y]}
-            slidesPerView={1}
-            nagivation
-            pagination={{ clickable: true }}
-            instanceName="portfolioSwiper"
-            className="portfolio__swiper"
-          >
-            <SwiperSlide>
-              <img
-                src={stonGif}
-                className="portfolio__item-image"
-                alt="Responsive Webpage"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={ston}
-                className="portfolio__item-image"
-                alt="Responsive Webpage"
-              />
-            </SwiperSlide>
-          </Swiper>
-
-          <article className="portfolio__item">
-            <h2>Stön: Pizza Notes</h2>
-            <h4>
-              A pllatform built to help home cooks and chefs develop better
-              pizzas. Written in JavaScript using React Native, Express API,
-              NodeJS, and PostgreSQL.
-            </h4>
-            <div className="portfolio__buttons">
-              <a
-                href="https://github.com/brthomiu/Responsive-Webpage"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-            </div>
-          </article>
-        </div>
-
-        {/*Movie Lookup --------------------------------------------*/}
-
-        <div className="container portfolio__container">
-          <Swiper
-            modules={[Navigation, Pagination, A11y]}
-            slidesPerView={1}
-            nagivation
-            pagination={{ clickable: true }}
-            instanceName="portfolioSwiper"
-            className="portfolio__swiper"
-          >
-            <SwiperSlide>
-              <img
-                src={movieGif}
-                className="portfolio__item-image"
-                alt="Responsive Webpage"
-              />
-            </SwiperSlide>
-          </Swiper>
-
-          <article className="portfolio__item">
-            <h2>Movie Lookup</h2>
-            <h4>
-              Movie lookup app made with React. Fetches movies from a remote API and renders component cards. Includes search and tag features.{" "}
-            </h4>
-            <div className="portfolio__buttons">
-            <a
-                href="https://brthomiu.github.io/movie-app/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
-          </article>
-        </div>
-
-        {/*Dog Store --------------------------------------------*/}
-
-        <div className="container portfolio__container">
-          <Swiper
-            modules={[Navigation, Pagination, A11y]}
-            slidesPerView={1}
-            nagivation
-            pagination={{ clickable: true }}
-            instanceName="portfolioSwiper"
-            className="portfolio__swiper"
-          >
-            <SwiperSlide>
-              <img
-                src={dogStoreGif}
-                className="portfolio__item-image"
-                alt="Responsive Webpage"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={dogStoreInfo}
-                className="portfolio__item-image"
-                alt="Responsive Webpage"
-              />
-            </SwiperSlide>
-          </Swiper>
-
-          <article className="portfolio__item">
-            <h2>Dog Store</h2>
-            <h4>
-              Online storefront made with React Bootstrap, NodeJS, Express, and
-              Stripe.{" "}
-            </h4>
-            <div className="portfolio__buttons">
-              <a
-                href="https://github.com/brthomiu/Responsive-Webpage"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-            </div>
-          </article>
-        </div>
-
-        {/*Calculon --------------------------------------------*/}
-
-        <div className="container portfolio__container">
+                <div className="container portfolio__container">
           <Swiper
             modules={[Navigation, Pagination, A11y]}
             slidesPerView={1}
@@ -263,6 +227,53 @@ const Portfolio = () => {
             </div>
           </article>
         </div>
+       
+        {/*Dog Store --------------------------------------------*/}
+
+        <div className="container portfolio__container">
+          <Swiper
+            modules={[Navigation, Pagination, A11y]}
+            slidesPerView={1}
+            nagivation
+            pagination={{ clickable: true }}
+            instanceName="portfolioSwiper"
+            className="portfolio__swiper"
+          >
+            <SwiperSlide>
+              <img
+                src={dogStoreGif}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={dogStoreInfo}
+                className="portfolio__item-image"
+                alt="Responsive Webpage"
+              />
+            </SwiperSlide>
+          </Swiper>
+
+          <article className="portfolio__item">
+            <h2>Dog Store</h2>
+            <h4>
+              Online storefront made with React Bootstrap, NodeJS, Express, and
+              Stripe.{" "}
+            </h4>
+            <div className="portfolio__buttons">
+              <a
+                href="https://github.com/brthomiu/Dog-Store"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </article>
+        </div>
+
 
         {/*Reactive Web Page --------------------------------------------*/}
 
